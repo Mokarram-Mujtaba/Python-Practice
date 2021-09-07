@@ -10,7 +10,7 @@ def send():
         text.insert(END, "\n" + "Bot: hi")
     elif (e.get() == "thik hun tu bta kaha hai"):
         text.insert(END, "\n" + "Bot: chand pe hai apun")
-    elif (e.get() == "ja na lwre"):
+    elif (e.get() == "ja na "):
         text.insert(END, "\n" + "Bot: apna kaam kr na apsbd")
     else:
         text.insert(END, "\n" + "Bot: Muh se supari nikal k bat kr btc.")
@@ -20,5 +20,5 @@ e = Entry(root,width=80)
 send = Button(root,text='Send',bg='blue',width=20,command=send).grid(row=1,column=1)
 e.grid(row=1,column=0)
 root = Tk()
-root.title('IT SOURCCODE SIMPLE CHATBOT')
+root.title('SIMPLE CHATBOT')
 root.mainloop()
